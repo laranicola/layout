@@ -1,27 +1,61 @@
-.tela{
-    width: 100px ;
-    height: 2000px;
+
+@media(max-width:375px){
+
+.quadrado1{
+        width: 365px;
+        height: 63px;
+        background-color: #000000 ;
+        margin: 5px;
+        background-attachment: fixed;
+
+
+}
+.quadrado2{
+    width: 176px;
+    height: 635px;
+    background-color: #656565;
+    margin: 5px;
+    display: inline-block;
+    background-attachment: fixed;
+
     
-}
-@media(min-width: 1700px){
-
-
-
-
-
 
 }
+.quadrado3{
+    width: 173px;
+    height: 635px;
+    background-color: #BC0000;
+    margin: 5px;
+    display: inline-block;
+    background-attachment: fixed;
+
+
+
+}
+.quadrado4{
+    width: 360px;
+    height: 43px;
+    background-color: #5a2a2a;
+    margin: 5px;
+    background-attachment: fixed;
+
+}
+}
+
+
+
+
+
+
 .quadrado1{
     width: 1878px;
     height: 63px;
-    flex-shrink: 0;
     margin: 5px;
     background-color: #000000 ;
 }
 .quadrado2{
     width: 542px;
     height: 780px;
-    flex-shrink: 0;
     margin:5px;
     background-color: #656565;
     display: inline-block;
@@ -29,9 +63,8 @@
 }
    
 .quadrado3{
-    width: 1323px;
+    width: 1320px;
     height: 780px;
-    flex-shrink: 0;
     margin:5px;
     background-color: #BC0000;
     display: inline-block;
@@ -40,7 +73,6 @@
 .quadrado4{
     width: 1878px;
     height: 43px;
-    flex-shrink: 0;
     background-color: #5a2a2a;
     margin:5px;
 }
